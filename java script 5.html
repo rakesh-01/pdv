@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>items</p>
+        <ol>
+            <li class="item">item1</li>
+            <li class="item" id="head">item2</li>
+            <li class="item">item3</li>
+            <li class="item">item4</li> 
+        </ol>
+        <script>
+            let i =document.getElementsByClassName('item');
+            console.log(i);
+            console.log(i.previousElementSibling);
+            console.log("3"*"5"+"2")
+            i[0].textContent='item';
+            let h=document.querySelector('#head')
+            h.style.border='solid 4px red'
+            let a =document.querySelectorAll('.item')
+            console.log(a.parentNode);
+
+
+        </script>
+    </body>
+</html>

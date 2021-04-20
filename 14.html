@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>flex</title>
+        <style>
+.container{
+                background-color: rgb(240, 240, 155);
+                width:640px;
+                height: 640px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                }
+                
+                .myclass{
+                    height: 150px;
+               width: 600px;
+               border: 2px solid black;
+               
+                
+                }
+                #head{
+                    
+                    flex-grow: 0.5;
+                    text-align: center;
+                    background-color: red;
+                    font-size:30px ;
+                    
+                }
+                #cen{
+                    flex-grow: 10;
+                    display: flex;
+                }
+                .sub{
+                    height: 100%;
+                    width: 100%;
+                    justify-content: space-between;
+                }
+#nav{
+   
+        text-align: center;
+                    background-color: rgb(241, 245, 33);
+                    font-size:30px ;
+
+}
+#content{
+   
+    text-align: center;
+                    background-color: rgb(32, 233, 32);
+                    font-size:30px ;
+}
+                
+                #foot{
+                    flex-grow: 0.5;
+                    text-align: center;
+                    background-color: rgb(18, 139, 160);
+                    font-size:30px ;
+                }
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="myclass" id="head">Header</div>
+            <div class="myclass" id="cen">
+            <div class="sub" id="nav">Nav</div>
+            <div class="sub" id="content">Content</div>
+            </div>
+             <div class="myclass" id="foot">Footer</div>
+
+
+
+        </div>
+    </body>
+</html>

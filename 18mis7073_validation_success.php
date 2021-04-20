@@ -1,0 +1,1 @@
+<h1 style = 'color:black; text-align:center; text-weight:bold; '>The record has been inserted successfully!<br></h1>

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <input type="text" placeholder="text"> 
+<button id="button">click</button>
+
+        <script>
+            let b=document.getElementById('button');
+            b.addEventListener('click',buttonclick);
+
+            function buttonclick(e){
+                console.log('button clicked');
+                console.log(e.target.id);
+            }
+            setInterval(()=>{
+                console.log('hey there');
+            },500)
+            setTimeout(()=>{
+                console.log('hey ');
+            },1000)
+        </script>
+    </body>
+</html>

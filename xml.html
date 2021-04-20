@@ -1,0 +1,23 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <p id="demo">
+
+        </p>
+        <script>
+            var xhttp =new XMLHttpRequest();
+            xhttp.open("GET","http://127.0.0.1/XML/books.xml",true);
+            xhttp.send();
+            xhttp.onreadystatechange=function(){
+                if(this.readyState==4 && this.status==200){
+                    myFunction(this);
+                }
+            };
+            function myFunction(xml){
+                
+            }
+        </script>
+    </body>
+</html>

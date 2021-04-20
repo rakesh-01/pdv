@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            .container{
+               
+               color: blue;
+                width:500px;
+                height: auto;
+                border: 4px solid red;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;  <!-- vertical-align-->
+                
+                  
+                }
+            .box{
+                background-color: aqua; 
+                color:blueviolet;
+                height: 100px;
+               width: 100px;
+                position: relative;
+              border: 2px solid red;
+             display:inline-block;
+             margin: 5px;
+             padding: 3px;
+}
+#box1{
+    flex-grow: 3;
+}
+#box2{
+    flex-shrink: 3;
+    flex-basis: 360px;
+}
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="box1 ">box 1</div>
+            <div class="box" id="box2">box 2</div>
+            <div class="box" id="box3">box 3</div>
+        </div>
+    </body>
+</html>

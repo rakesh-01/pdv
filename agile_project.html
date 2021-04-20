@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Text Transfer Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="agile_project.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar black card">
+    <div style="display: flex,;justify-content: center;font-size: 35px;" >TEXT TRANSFER PORTAL</div>
+
+    <a class="bar-item button padding-large hide-medium hide-large right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="bar-item button padding-large">HOME</a>
+    <a href="#band" class="bar-item button padding-large hide-small">ABOUT US</a>
+    <a href="#band" class="bar-item button padding-large hide-small">CREATE CLIP</a>
+    <a href="#tour" class="bar-item button padding-large hide-small">VIEW CLIP</a>
+    
+    <div class="dropdown-hover hide-small">
+      <button class="padding-large button" title="More">CUSTOMIZE <i class="fa fa-caret-down"></i></button>     
+      <div class="dropdown-content bar-block card-4">
+        <a href="#" class="bar-item button">Set timer</a>
+        <a href="#" class="bar-item button">Destroy</a>
+        <a href="#" class="bar-item button">Media</a>
+      </div>
+
+    </div>
+    <a href="#contact" class="bar-item button padding-large hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="padding-large hover-red hide-small right">login</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="bar-block black hide hide-large hide-medium top" style="margin-top:46px">
+  <a href="#band" class="bar-item button padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="bar-item button padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="bar-item button padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="bar-item button padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides display-container center">
+    <img src="clipboard.png" style="width:100%">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+      <h3 style="color: black;">Text Transfer Portal</h3>
+      <p style="color: black;"><b>Your clip is empty create one!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides display-container center">
+    <img src="clipboard2.png" style="width:auto">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+      <h3 style="color: black;">Text Transfer Portal</h3>
+      <p style="color: black;"><b>We connets each other.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides display-container center">
+    <img src="clipboard3.png" style="width:78%">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+        <h3 style="color: black;">Text Transfer Portal</h3>
+      <p style="color: black;"><b>you can even share knowledge</b></p>    
+    </div>
+  </div>
+
+  <!-- The About us Section -->
+  <div class="container content center padding-64" style="max-width:800px" id="band">
+    <h2 class="wide">Text Transfer Portal</h2>
+    <p class="opacity"><i>We Make it simple!</i></p> 
+    <p class="justify">Text Transfer portal is the internet clipboard allowing you to quickly move links and text between devices. Just create a clip and paste the text you want. Then on any other device enter the URL. That is all there is to it.It allows users to send text messages,media messages and documents.Further we gonna try to make an update and even make user to send images and videos too.On further update it allows you to send messages, pictures, videos and even voice recordings, as well as make voice and video calls over the internet for free, rather than using your mobile network which costs you money.</p>
+    <div class="row padding-32">
+        <h2 class="wide">How it Works?</h2>
+        <p class="justify">Easy 3 way step process</p>
+
+      <div class="third">
+       <ul>
+           <li>Click on create clip</li>
+       </ul>
+        
+    
+      </div>
+      <div class="third">
+        <ul>
+            <li>Paste the text you want to </li>
+        </ul>
+        
+      </div>
+      <div class="third">
+        <ul>
+            <li>Customize as you want.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Why this Section -->
+  <div class="black" id="tour">
+    <div class="container content padding-64" style="max-width:800px">
+      <h2 class="wide center">Why this</h2>
+      <p class="opacity center"><i>know more about us</i></p><br>
+
+      <ul class="ul border white text-grey">
+        <li class="padding"> Easy to use </li>
+        <li class="padding">Highly secure</li>
+        <li class="padding">No need of backup </li>
+      </ul>
+
+      <div class="row-padding padding-32" style="margin:0 -16px">
+        <div class="third margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p><b>Easy to use</b></p>
+            <p class="opacity"></p>
+            <p>We have designed our UI in a way that users can seamlessly interact with technology. </p>
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Create Clip</button>
+          </div>
+        </div>
+        <div class="third margin-bottom">
+          <img src="/w3images/paris.jpg" alt="" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p><b>We connects each other</b></p>
+            <p class="opacity"></p>
+            <p>You can even chat with your friends</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Create Clip</button>
+          </div>
+        </div>
+        <div class="third margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p><b>you can share knowledge</b></p>
+            <p class="opacity"></p>
+            <p>We acts like a knowledge bridge between you and your mate where you can share knowledge.</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Create Clip</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- The Contact Section -->
+  <div class="container content padding-64" style="max-width:800px" id="contact">
+    <h2 class="wide center">CONTACT</h2>
+    <p class="opacity center"><i>give us a suggestion!</i></p>
+    <div class="row padding-32">
+      <div class="col m6 large margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> VITAP, Amaravati<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9898237654<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: texttransferportal@gmail.com<br>
+      </div>
+      <div class="col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="row-padding" style="margin:0 -16px 8px -16px">
+            <div class="half">
+              <input class="input border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="half">
+              <input class="input border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="input border" type="text" placeholder="Message" required name="Message">
+          <button class="button black section right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="container padding-64 center opacity light-grey xlarge">
+  <i class="fa fa-facebook-official hover-opacity"></i>
+  <i class="fa fa-instagram hover-opacity"></i>
+  <i class="fa fa-snapchat hover-opacity"></i>
+  <i class="fa fa-pinterest-p hover-opacity"></i>
+  <i class="fa fa-twitter hover-opacity"></i>
+  <i class="fa fa-linkedin hover-opacity"></i>
+  <p class="medium">Powered by <a href="https://vitap.ac.in/" target="_blank">Vitap students</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+</body>
+</html>

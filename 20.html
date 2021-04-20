@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+           
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+body{
+    background-color: black;
+    position: relative;
+}
+.container{
+     position: relative;
+     overflow:hidden;
+     height: 100vh;
+     width: 100vw;
+}
+
+
+    
+
+.box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    animation: rakesh 1s linear infinite;
+
+}
+@keyframes rakesh {
+    0%{
+opacity: 1;
+    }
+    100%{
+        transform: translateY(-100vh) rotate(720deg);
+        scale:(2);
+        opacity: 0.2;
+    }
+    
+}
+#box1{
+    height: 100px;
+    width: 50px;
+    left: 20%;
+    animation-delay: 1s;
+
+}
+#box2{
+    left: 30%;
+    animation-delay: 3s;
+    
+}
+#box3{
+    height: 50px;
+    width: 100px;
+    left: 50%;
+    animation-delay: 4s;
+}
+#box4{
+    left: 80%;
+    animation-delay: 2s;
+    
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+
+    </body>
+</html>

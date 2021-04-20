@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function fun()
+        {
+            document.write("rakesh"+"<br>")
+        }
+        fun();
+        let f= function()
+        {
+            document.write("rakesh"+"<br>")
+            return 5;
+        }
+        let v=f();
+        document.write(v);
+
+        function x(a,b,c=5,d=4)
+        {
+            document.write(c+d+"<br>");
+            document.write(arguments[2])
+        }
+        x(2,3,4)
+
+        let x=5;
+        function g()
+        {
+            let y=3;
+            document.write(x);
+            document.write(y)
+
+        }
+        g();
+
+
+
+            </script>
+    </body>
+</html>
